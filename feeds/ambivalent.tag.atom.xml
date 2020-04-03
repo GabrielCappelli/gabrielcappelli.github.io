@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gabriel Cappelli - Ambivalent</title><link href="http://localhost:5500/" rel="alternate"></link><link href="http://localhost:5500%5Cfeeds/ambivalent.tag.atom.xml" rel="self"></link><id>http://localhost:5500/</id><updated>2020-04-01T00:00:00+00:00</updated><entry><title>Ambivalent 0.1.0</title><link href="http://localhost:5500%5Cposts/2020/04/01/ambivalent-0.1.0/" rel="alternate"></link><published>2020-04-01T00:00:00+00:00</published><updated>2020-04-01T00:00:00+00:00</updated><author><name>Gabriel Cappelli</name></author><id>tag:localhost,2020-04-01:/2020/04/01/ambivalent-0.1.0/</id><summary type="html">&lt;p&gt;This is Ambivalent's first release! Ambivalent is a lightweight theme for Pelican,
+featuring a mobile first responsive design and light/dark themes.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is Ambivalent's first release! Ambivalent is a lightweight theme for Pelican, with a responsive design and light/dark themes.&lt;/p&gt;
+&lt;p&gt;I plan to use Pelican and Ambivalent on my own &lt;a href="" title="https://blog.gabrielcappelli.com"&gt;blog&lt;/a&gt; and will be adding more features as I have a need for them.&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lightweight&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Light and Dark themes&lt;/li&gt;
+&lt;li&gt;SEO best practices&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Google AdSense&lt;/li&gt;
+&lt;/ul&gt;</content><category term="News"></category><category term="Ambivalent"></category></entry></feed>
