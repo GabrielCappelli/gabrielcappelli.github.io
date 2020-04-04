@@ -1,69 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" class="light-theme">
 <head>
-    <script>
-        let lightTheme = true;
-        let root = document.documentElement;
-        if (localStorage.getItem('theme') === 'dark-theme' ||
-            (localStorage.getItem('theme') !== 'light-theme' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches))
-        {
-            root.className = 'dark-theme';
-            lightTheme = false;
-        }
-        function toggleTheme() {
-            if(lightTheme)
-            {
-                root.className = 'dark-theme';
-                localStorage.setItem('theme', 'dark-theme');
-            }
-            else
-            {
-                root.className = 'light-theme';
-                localStorage.setItem('theme', 'light-theme');
-            }
-            lightTheme = !lightTheme;
-        }
-        let isOpen = false;
-        function toggleSideMenu() {
-            var sideMenuSize = getComputedStyle(document.documentElement).getPropertyValue('--side-menu-size');
-            if(isOpen)
-            {
-                document.getElementById("side-menu").style.left = "-100vw";
-            }
-            else
-            {
-                document.getElementById("side-menu").style.left = "0";
-            }
-            isOpen = !isOpen;
-        }
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="theme-color" content="black">
-    <link rel="stylesheet" type="text/css" href="https://www.gabrielcappelli.com/theme/css/site.css">
-    <link rel="stylesheet" type="text/css" href="https://www.gabrielcappelli.com/theme/css/pygment.css">
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[])
-  .push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-  a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script',
-  'https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-162605114-1', 'auto');
-    ga('send', 'pageview');
-</script><script data-ad-client="ca-pub-5121299934702419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>    <title>Samples</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Welcome to Ambivalents live demo!" />
+    <meta property="og:title" content="Gabriel Cappelli" />
+    <meta property="og:description" content="Welcome to Ambivalents live demo!" />
+    <meta property="og:url" content="http://localhost.com/category/samples2.html" />
+    <meta property="og:locale" content="" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="http://localhost.com/category/samples2.html">
+    <link rel="stylesheet" type="text/css" href="http://localhost.com/theme/css/site.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost.com/theme/css/pygment.css">
+    <title>Gabriel Cappelli - Samples</title>
 </head>
 <body>
 <nav id="top-menu">
     <a onclick="toggleSideMenu()">☰</a>
     <a href="/">Gabriel Cappelli</a>
     <a class="lamp-svg" onclick="toggleTheme()">
-        <img src="https://www.gabrielcappelli.com/theme/img/lamp.svg" alt="Theme Toggle" />
+        <img src="http://localhost.com/theme/img/lamp.svg" alt="Theme Toggle" />
     </a>
 </nav><nav id="side-menu">
     <a class="side-menu-title" href="/"> <b>Gabriel Cappelli</b></a>
-    <img class="side-menu-logo" src="https://www.gabrielcappelli.com/theme/img/ambivalent.svg" alt="logo" />
-    <p class="side-menu-descr">Welcome to Ambivalent's live demo!</p>
+    <img class="side-menu-logo" src="http://localhost.com/theme/img/ambivalent.svg" alt="logo" />
+    <p class="side-menu-descr">Welcome to Ambivalents live demo!</p>
     <a href="/">
         Home
     </a>
@@ -82,22 +46,22 @@
 </nav>    <main>
     <h1>Posts in category Samples</h1>
     <article class="article-preview">
-    <h1><a href="https://www.gabrielcappelli.com/posts/2020/01/01/lorem-ipsum2/">Lorem Ipsum2</a></h1>
+    <h1><a href="http://localhost.com/posts/2020/01/01/lorem-ipsum2/">Lorem Ipsum2</a></h1>
 <p class="post-meta">
-    <img class="calendar-svg" src="https://www.gabrielcappelli.com/theme/img/calendar.svg" alt="date"></img>
-    01 January 2020
+    <img class="calendar-svg" src="http://localhost.com/theme/img/calendar.svg" alt="date" />
+    Wed 01 January 2020
     &sdot;
     Gabriel Cappelli
     &sdot;
     4 mins
 </p>    <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis accumsan neque. In et orci vel orci elementum aliquet vel ut arcu. Phasellus imperdiet iaculis auctor. Curabitur at tellus vel augue euismod pellentesque at id nisi. Ut turpis felis, aliquet vitae lectus maximus, imperdiet auctor diam.</p></p>
-    <a class="read-more" href="https://www.gabrielcappelli.com/posts/2020/01/01/lorem-ipsum2/">READ MORE</a>
+    <a class="read-more" href="http://localhost.com/posts/2020/01/01/lorem-ipsum2/">READ MORE</a>
 </article><div class="pagination">
 
-    <a href="https://www.gabrielcappelli.com/category/samples.html" aria-label="Previous page">
+    <a href="http://localhost.com/category/samples.html" aria-label="Previous page">
         &laquo; Previous
     </a>
-    <a href="https://www.gabrielcappelli.com/" aria-label="Next page">
+    <a href="http://localhost.com/" aria-label="Next page">
     </a>
 </div>
     </main>
@@ -105,16 +69,16 @@
     <hr>
     <div class="sm">
         <a href="https://www.linkedin.com/in/gabrielcappelli/" aria-label="LinkedIn">
-            <img src="https://www.gabrielcappelli.com/theme/img/lkdin.svg" alt="LinkedIn"></img>
+            <img src="http://localhost.com/theme/img/lkdin.svg" alt="LinkedIn"/>
         </a>
         <a href="https://stackoverflow.com/users/10013232/gabriel-cappelli?tab=profile" aria-label="StackOverflow">
-            <img src="https://www.gabrielcappelli.com/theme/img/stackoverflow.svg" alt="StackOverflow"></img>
+            <img src="http://localhost.com/theme/img/stackoverflow.svg" alt="StackOverflow"/>
         </a>
         <a href="https://github.com/GabrielCappelli/Ambivalent" aria-label="GitHub">
-            <img src="https://www.gabrielcappelli.com/theme/img/github.svg" alt="GitHub"></img>
+            <img src="http://localhost.com/theme/img/github.svg" alt="GitHub"/>
         </a>
         <a href="/feeds/all.atom.xml" aria-label="RSS">
-            <img src="https://www.gabrielcappelli.com/theme/img/rss.svg" alt="RSS"></img>
+            <img src="http://localhost.com/theme/img/rss.svg" alt="RSS"/>
         </a>
     </div>
 <p class="powered-by">
@@ -126,4 +90,48 @@
     This work is licensed under a
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p></footer></body>
-</html>
+<script>
+    let lightTheme = true;
+    let root = document.documentElement;
+    if (localStorage.getItem('theme') === 'dark-theme' ||
+        (localStorage.getItem('theme') !== 'light-theme' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches))
+    {
+        root.className = 'dark-theme';
+        lightTheme = false;
+    }
+    function toggleTheme() {
+        if(lightTheme)
+        {
+            root.className = 'dark-theme';
+            localStorage.setItem('theme', 'dark-theme');
+        }
+        else
+        {
+            root.className = 'light-theme';
+            localStorage.setItem('theme', 'light-theme');
+        }
+        lightTheme = !lightTheme;
+    }
+    let isOpen = false;
+    function toggleSideMenu() {
+        var sideMenuSize = getComputedStyle(document.documentElement).getPropertyValue('--side-menu-size');
+        if(isOpen)
+        {
+            document.getElementById("side-menu").style.left = "-100vw";
+        }
+        else
+        {
+            document.getElementById("side-menu").style.left = "0";
+        }
+        isOpen = !isOpen;
+    }
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[])
+  .push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+  a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script',
+  'https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-162605114-1', 'auto');
+    ga('send', 'pageview');
+</script><script data-ad-client="ca-pub-5121299934702419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></html>

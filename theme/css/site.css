@@ -19,7 +19,7 @@
 
 :root {
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: Open Sans, sans-serif;
     --top-menu-h: 4rem !important;
     --side-menu-w: 20vw !important;
     --transition-time: .5s;
