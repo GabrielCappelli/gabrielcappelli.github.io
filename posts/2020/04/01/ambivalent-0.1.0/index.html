@@ -23,6 +23,50 @@
     <link rel="stylesheet" type="text/css" href="https://gabrielcappelli.com/theme/css/site.css">
     <link rel="stylesheet" type="text/css" href="https://gabrielcappelli.com/theme/css/pygment.css">
     <title>Ambivalent - Ambivalent 0.1.0</title>
+<script data-ad-client="ca-pub-5121299934702419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[])
+  .push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+  a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script',
+  'https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-162605114-1', 'auto');
+    ga('send', 'pageview');
+</script>    <script>
+        let lightTheme = true;
+        let root = document.documentElement;
+        if (localStorage.getItem('theme') === 'dark-theme' ||
+            (localStorage.getItem('theme') !== 'light-theme' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches))
+        {
+            root.className = 'dark-theme';
+            lightTheme = false;
+        }
+        function toggleTheme() {
+            if(lightTheme)
+            {
+                root.className = 'dark-theme';
+                localStorage.setItem('theme', 'dark-theme');
+            }
+            else
+            {
+                root.className = 'light-theme';
+                localStorage.setItem('theme', 'light-theme');
+            }
+            lightTheme = !lightTheme;
+        }
+        let isOpen = false;
+        function toggleSideMenu() {
+            var sideMenuSize = getComputedStyle(document.documentElement).getPropertyValue('--side-menu-size');
+            if(isOpen)
+            {
+                document.getElementById("side-menu").style.left = "-100vw";
+            }
+            else
+            {
+                document.getElementById("side-menu").style.left = "0";
+            }
+            isOpen = !isOpen;
+        }
+    </script>
 </head>
 <body>
 <nav id="top-menu">
@@ -111,48 +155,4 @@
     This work is licensed under a
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p></footer></body>
-<script>
-    let lightTheme = true;
-    let root = document.documentElement;
-    if (localStorage.getItem('theme') === 'dark-theme' ||
-        (localStorage.getItem('theme') !== 'light-theme' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches))
-    {
-        root.className = 'dark-theme';
-        lightTheme = false;
-    }
-    function toggleTheme() {
-        if(lightTheme)
-        {
-            root.className = 'dark-theme';
-            localStorage.setItem('theme', 'dark-theme');
-        }
-        else
-        {
-            root.className = 'light-theme';
-            localStorage.setItem('theme', 'light-theme');
-        }
-        lightTheme = !lightTheme;
-    }
-    let isOpen = false;
-    function toggleSideMenu() {
-        var sideMenuSize = getComputedStyle(document.documentElement).getPropertyValue('--side-menu-size');
-        if(isOpen)
-        {
-            document.getElementById("side-menu").style.left = "-100vw";
-        }
-        else
-        {
-            document.getElementById("side-menu").style.left = "0";
-        }
-        isOpen = !isOpen;
-    }
-</script>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[])
-  .push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-  a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script',
-  'https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-162605114-1', 'auto');
-    ga('send', 'pageview');
-</script><script data-ad-client="ca-pub-5121299934702419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script></html>
+</html>
